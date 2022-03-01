@@ -11,7 +11,6 @@ var generateBtn = document.querySelector("#generate");
 function generatePassword() {
   var count = Number(prompt("Please enter the amount of characters you would like in your password."));
   if (count < 8 || count > 128) {
-    console.log("Out of range");
     alert('Please select a number between 8 and 128.');
     return "";
   }
@@ -47,13 +46,12 @@ function generatePassword() {
     possibleChars += special;
     newPass += special.charAt(Math.floor(Math.random() * special.length));
   }
-  console.log(newPass);
 
   while (newPass.length < count) {
     newPass += possibleChars.charAt(Math.floor(Math.random() * possibleChars.length));
   }
-  console.log(newPass);
   return newPass;
+  
 }
 
 // Write password to the #password input
