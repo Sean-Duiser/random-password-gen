@@ -12,5 +12,10 @@ When a user selects a criteria, the program is required to include that criteria
 ## Technologies Utilizied
 The site was built using a combination of HTML, CSS, and JavaScript
 
+## Authors and Acknowledgements
+Sean Duiser:
+sean.duiser.develop@gmail.com
+704-296-8335
+
 ## Deployed Site
 https://sean-duiser.github.io/random-password-gen/
